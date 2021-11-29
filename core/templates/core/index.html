@@ -1,0 +1,540 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <!-- Site Metas -->
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <link rel="shortcut icon" href="{% static "core/images/favicon.png" %}" type=" image
+    /x-icon">
+
+    <title>Comprar Bitcoin en Linea</title>
+
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="{% static "core/css/bootstrap.css" %}"/>
+    <!--owl slider stylesheet -->
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+    <!-- font awesome style -->
+    <link href="{% static "core/css/font-awesome.min.css" %}" rel="stylesheet"/>
+
+    <!-- Custom styles for this template -->
+    <link href="{% static "core/css/style.css" %}" rel="stylesheet"/>
+    <!-- responsive style -->
+    <link href="{% static "core/css/responsive.css" %}" rel="stylesheet"/>
+
+</head>
+
+<body>
+<div class="color">
+
+    <div class="hero_area">
+        <div class="hero_social">
+            <a href="https://www.facebook.com/LaBitcoineraHN">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/La_Bitcoinera">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/tgu-consulting-group/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/la_bitcoinera/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </div>
+        <!-- header section  -->
+        <header class="header_section">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="index.html">
+            <span>
+              <img src="{% static "core/images/la_bitcoinera_color-banner.png" %}" style="width:35%">
+            </span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""> </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="www.labitcoinera.com">Pagina Principal <span class="sr-only">(current)</span></a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- final header section -->
+        <div id="popup1" class="overlay">
+            <div class="popup">
+
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <h3>
+                        Escoja su metodo de pago:
+
+                    </h3>
+
+                    {% csrf_token %}
+                    <input type="text" id="address" placeholder="Address">
+                    <input type="number" id="amount" placeholder="Cantidad">
+                    <input type="comprar" id="comprar" placeholder="comprar"
+
+                </div>
+                <h3>
+                    Por transferencia Bancaria.
+                </h3>
+                <div>
+                    <ul>
+
+                        <li>LAFISE- La Bitcoinera</li>
+                        <li> Cuenta de Cheques (L.): 114503001076</li>
+
+                        <li>RTN: 0801190191693433</li>
+                        <li>Porfavor enviar copia del comprobante al: +504 3216 1911 o enviar por correo:
+                            operations@labitcoinera.com
+                        </li>
+                        TGU Consulting Group S. de R.L de C.V
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+        <section class="shop_section layout_padding">
+            <div class="container">
+                <div class="heading_container heading_center" style=" color:white">
+                    <h2>
+                        Crypto Monedas Disponibles & Montos
+                    </h2>
+                </div>
+                <div class="row">
+                    <!--"col-md-6-->
+                    <div class="col-sm-6 col-xl-3" type="number" value="3000">
+                        <div class="box">
+                            <a href="#popup1">
+                                <div class="img-box">
+                                    <img src="{% static "core/images/w1.png" %}" alt="">
+                                </div>
+                                <div class="detail-box">
+                                    <h6>
+                                        BTC
+                                    </h6>
+                                    <h6>
+                                        Precio:
+                                        <span>
+                      3000L.
+                    </span>
+                                    </h6>
+                                </div>
+                                <div class="new">
+                  <span>
+                    Bitcoin
+                  </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="box">
+                            <a href="#popup1">
+                                <div class="img-box">
+                                    <img src="{% static "core/images/w1.png" %}" alt="">
+                                </div>
+                                <div class="detail-box">
+                                    <h6>
+                                        BTC
+                                    </h6>
+                                    <h6>
+                                        Precio:
+                                        <span>
+                      2000L.
+                    </span>
+                                    </h6>
+                                </div>
+                                <div class="new">
+                  <span>
+                    Bitcoin
+                  </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="box">
+                            <a href="#popup1">
+                                <div class="img-box">
+                                    <img src="{% static "/core/images/w1.png" %}" alt="">
+                                </div>
+                                <div class="detail-box">
+                                    <h6>
+                                        BTC
+                                    </h6>
+                                    <h6>
+                                        Precio:
+                                        <span>
+                      1000L.
+                    </span>
+                                    </h6>
+                                </div>
+                                <div class="new">
+                  <span>
+                    Bitcoin
+                  </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="box">
+                            <a href="#popup1">
+                                <div class="img-box">
+                                    <img src="{% static "core/images/w1.png" %}" alt="">
+                                </div>
+                                <div class="detail-box">
+                                    <h6>
+                                        BTC
+                                    </h6>
+                                    <h6>
+                                        Precio:
+                                        <span>
+                      500L.
+                    </span>
+                                    </h6>
+                                </div>
+                                <div class="new">
+                  <span>
+                    Bitcoin
+                  </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="box">
+                            <a href="#popup1">
+                                <div class="img-box">
+                                    <img src="{% static  "core/images/w1.png" %}" alt="">
+                                </div>
+                                <div class="detail-box">
+                                    <h6>
+                                        BTC
+                                    </h6>
+                                    <h6>
+                                        Precio:
+                                        <span>
+                      300L.
+                    </span>
+                                    </h6>
+                                </div>
+                                <div class="new">
+                  <span>
+                    Bitcoin
+                  </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6  col-xl-3">
+                        <div class="box">
+                            <a href="#popup1">
+                                <div class="img-box">
+                                    <img src="{% static "core/images/w1.png" %}" alt="">
+                                </div>
+                                <div class="detail-box">
+                                    <h6>
+                                        BTC
+                                    </h6>
+                                    <h6>
+                                        Precio:
+                                        <span>
+                      200L.
+                    </span>
+                                    </h6>
+                                </div>
+                                <div class="new">
+                  <span>
+                    Bitcoin
+                  </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="box">
+                            <a href="#popup1">
+                                <div class="img-box">
+                                    <img src="{% static  "/core/images/w1.png" %}" alt="">
+                                </div>
+                                <div class="detail-box">
+                                    <h6>
+                                        BTC
+                                    </h6>
+                                    <h6>
+                                        Precios:
+                                        <span>
+                      100L.
+
+                    </span>
+                                    </h6>
+                                </div>
+                                <div class="new">
+                  <span>
+                    Bitcoin
+                  </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="box">
+
+                            <div class="img-box">
+                                <div id="result">
+                                    <span>Lempiras:</span>
+                                    <input type="number" id="textInput2" value="number" method="post"/>
+                                </div>
+                                <div id="btcholder">
+                                    <span>Bitcoin</span>
+                                    <input type="number" id="textInput" value="number" method="post"/>
+                                </div>
+
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    BTC
+                                </h6>
+                                <h6>
+
+                                    <span>
+                                        <a href="#popup1" id="btncomprar">Comprar</a>
+                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                  <span>
+                    Ingrese su Monto:
+                  </span>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+    </div>
+
+
+    </section>
+
+    <!-- end tienda section -->
+
+    <!-- about section -->
+
+    </section>
+    <!-- end cliente section -->
+
+    <!-- final section -->
+    <footer class="footer_section" style="background-color: #311a52; left: -27px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 footer-col">
+                    <div class="footer_detail">
+                        <h4>
+                            Quienes somos?
+                        </h4>
+                        <p>
+                            La Bitcoinera, primera empresa en encargarse de la compra y venta de distintas
+                            crypto-monedas en Honduras.
+                        </p>
+                        <div class="footer_social">
+                            <a href="https://www.facebook.com/LaBitcoineraHN">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://twitter.com/La_Bitcoinera">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/tgu-consulting-group/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.instagram.com/la_bitcoinera/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 footer-col">
+                    <div class="footer_contact">
+                        <h4>
+                            Puedes contactarnos
+                        </h4>
+                        <div class="contact_link_box">
+                            <a href="">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>
+                    Ubicacion
+                  </span>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>
+                    Llamar al +504 2204-6547
+                  </span>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span>
+                    operations@labitcoinera.com
+                  </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 footer-col">
+                    <div class="map_container">
+                        <div class="map">
+                            <div id="googleMap"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info">
+                <p>
+                    &copy; <span id="displayYear"></span> Todos los derechos reservados
+                    <a href="https://html.design/">TGU Consulting Group</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- final section -->
+
+    <!-- jQery -->
+    <script src="{% static "core/js/jquery-3.4.1.min.js" %}"></script>
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <!-- b js -->
+    <script src= {% static "core/js/bootstrap.js" %}></script>
+    <!-- s -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <!--  js -->
+    <script src="{% static "core/js/custom.js" %}"></script>
+    <!-- Empieza google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+    <!-- termina Google Map -->
+    <!--Conversion Javascript-->
+    <script src="{% static "core/js/conversion.js" %}"></script>
+</div>
+</div>
+<!-- shop section -->
+<script>
+
+        function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                // Does this cookie string begin with the name we want?
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+
+    const csrftoken = getCookie('csrftoken');
+    console.log(csrftoken)
+
+    //function sendPago() {
+      //  console.log('Entro pago lol');
+        //return new Promise(resolve => {
+          //  let e =  fetch("{% url 'home'%}", {
+            //    method: 'post',
+              //  body: JSON.stringify({
+                //    'accountNumber': '',//'bc1qjyzmnpftyr2ye4xv56r5uykemczypycr7wdfaa' ,
+                  //  'amount': 'amount',
+                    //'cardHolderName': '',
+                  //  'comment': '',
+                    //'commerceID': ,
+                  //  'customerName': '',
+                    //'cvc': ,
+                    //'expirationMonth': ,
+                    //'expirationYear': ,
+                    //'externalReference':'',
+                    //'terminalNbr':''
+
+
+
+                //}),
+                //headers: {
+                  //  'Content-Type': 'application/json',
+                    //'X-CSRFToken': csrftoken,
+                   // 'X-Content': 'json'
+
+                //}
+            //})
+            //resolve(e)
+       // });
+
+
+    }
+
+    $('#comprar').on('click', async function () {
+        console.log('Entrooo')
+        let e = await sendPOST('comprar', $('#address').val(), $('#amount').val())
+        console.log(e);
+    });
+
+
+
+    function sendPOST(action, address, amount) {
+
+        return new Promise(resolve => {
+            let e =  fetch("{% url 'home'%}", {
+                method: 'post',
+                body: JSON.stringify({
+                    'destination': address,//'bc1qjyzmnpftyr2ye4xv56r5uykemczypycr7wdfaa' ,
+                    'amount': amount,
+                    'password': 'daniel',
+                    'addtransaction': true
+
+                }),
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': csrftoken
+                }
+            })
+            resolve(e)
+        });
+    }
+
+</script>
+<script src="https://preprod-boton.todopago.hn/todopago-widget.js"></script>
+</body>
+
+</html>
